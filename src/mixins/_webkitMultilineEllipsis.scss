@@ -1,0 +1,6 @@
+@mixin chrome-multiline-ellipsis ($line-count) {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp : $line-count;
+}

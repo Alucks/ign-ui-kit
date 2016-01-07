@@ -1,0 +1,13 @@
+# Git
+.git
+
+# NPM
+node_modules
+*.log
+
+# Builds
+.grunt
+
+# Workspaces
+.idea
+.vscode

@@ -1,0 +1,13 @@
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+
+  background-color: $ign-red;
+
+  @include retina {
+    background-color: $ign-blue;
+  }
+
+  @include chrome-multiline-ellipsis (2);
+}
