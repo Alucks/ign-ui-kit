@@ -1,8 +1,9 @@
+@import "http://oystatic.ignimgs.com/cache/css/7c/e2/7ce27df8aa15ee1ed488f4e3f69bd84e.css";
+@import "http://oystatic.ignimgs.com/cache/css/22/69/2269dfe44c2c17271ab58db82d406a6e.css";
+@import url(gcn8akg-d.css);
 button {
-  width: 100px;
-  height: 50px;
-  border-radius: 5px;
-  background-color: #bf1313;
+  font-family: "Maquette Bold","ars-maquette-web";
+  text-align: center;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -10,3 +11,78 @@ button {
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     button {
       background-color: #3888c9; } }
+
+.btn-grey {
+  border: 1px solid #bababa;
+  background-color: #fff;
+  border-radius: 25px;
+  color: #bababa;
+  font-size: 13px;
+  line-height: 2.2;
+  margin-top: 9px;
+  padding: 5px 12px; }
+
+/* CSS for Kit */
+body {
+  display: flex; }
+
+.k-menu {
+  padding: 20px;
+  width: 140px;
+  position: fixed;
+  border-right: 1px solid #b2b2b2;
+  height: 100%; }
+
+.content {
+  margin-left: 180px;
+  max-width: 800px; }
+
+section {
+  padding: 20px 40px; }
+
+.demo-box {
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0px;
+  margin: 5px;
+  border-radius: 4px; }
+
+.ign-white {
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7; }
+
+.ign-lightest-gray {
+  background-color: #d7d7d7; }
+
+.ign-light-gray {
+  background-color: #b2b2b2; }
+
+.ign-gray {
+  background-color: #606366; }
+
+.ign-dark-gray {
+  background-color: #333435;
+  color: #d7d7d7; }
+
+.ign-darkest-gray {
+  background-color: #242424;
+  color: #d7d7d7; }
+
+.ign-black {
+  background-color: #000000;
+  color: #d7d7d7; }
+
+.ign-red {
+  background-color: #bf1313; }
+
+.ign-legacy-red {
+  background-color: #d3222a; }
+
+.ign-blue {
+  background-color: #3888c9; }
+
+.p-label {
+  font: bold 0.764em "ff-din-round-web-pro", sans-serif; }
+
+/* CSS for Components */

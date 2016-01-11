@@ -1,0 +1,76 @@
+$ign-label: bold 0.764em 'ff-din-round-web-pro', sans-serif;
+
+
+@import "http://oystatic.ignimgs.com/cache/css/7c/e2/7ce27df8aa15ee1ed488f4e3f69bd84e.css";
+@import "http://oystatic.ignimgs.com/cache/css/22/69/2269dfe44c2c17271ab58db82d406a6e.css";
+@import "gcn8akg-d.css";
+
+/* CSS for Kit */
+body{
+   display:flex;
+}
+.k-menu{
+   padding:20px;
+   width:140px;
+   position:fixed;
+   border-right:1px solid $ign-light-gray;
+   height:100%;
+}
+
+.content {
+   margin-left:180px;
+   max-width: 800px;
+
+}
+section{
+   padding:20px 40px;
+}
+
+.demo-box {
+  width:180px;
+  display:inline-block;
+  text-align: center;
+  padding:12px 0px;
+  margin: 5px;
+  border-radius: 4px;
+}
+.ign-white{
+   background-color: $ign-white;
+   border:1px solid $ign-lightest-gray;
+}
+.ign-lightest-gray{
+   background-color: $ign-lightest-gray;
+}
+.ign-light-gray{
+   background-color: $ign-light-gray;
+}
+.ign-gray{
+   background-color: $ign-gray;
+}
+.ign-dark-gray{
+   background-color: $ign-dark-gray;
+   color: $ign-lightest-gray;
+}
+.ign-darkest-gray{
+   background-color: $ign-darkest-gray;
+    color: $ign-lightest-gray;
+}
+.ign-black{
+   background-color: $ign-black;
+    color: $ign-lightest-gray;
+}
+.ign-red{
+   background-color: $ign-red;
+}
+.ign-legacy-red{
+   background-color: $ign-legacy-red;
+}
+.ign-blue{
+   background-color: $ign-blue;
+}
+
+.p-label{
+   font:$ign-label;
+}
+
+/* CSS for Components */

@@ -1,13 +1,31 @@
 button {
-  width: 100px;
-  height: 50px;
-  border-radius: 5px;
-
-  background-color: $ign-red;
+  font-family: "Maquette Bold","ars-maquette-web";
+  text-align: center;
 
   @include retina {
     background-color: $ign-blue;
   }
 
   @include chrome-multiline-ellipsis (2);
+}
+
+.btn-grey {
+   border: 1px solid #bababa;
+   background-color: #fff;
+   border-radius: 25px;
+   color: #bababa;
+   font-size: 13px;
+   line-height: 2.2;
+   margin-top: 9px;
+   padding:5px 12px;
+}
+
+.btn-primary {
+   background-color: #bf1313;
+   border:none;
+   border-radius: 2px;
+   color: $ign-white;
+   padding: 10px 15px;
+   text-transform: uppercase;
+   margin:20px;
 }

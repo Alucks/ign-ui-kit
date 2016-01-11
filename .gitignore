@@ -11,3 +11,6 @@ node_modules
 # Workspaces
 .idea
 .vscode
+
+# private
+dist/gcn8akg-d.css
