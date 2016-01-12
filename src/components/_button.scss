@@ -1,6 +1,19 @@
 button {
-  font-family: "Maquette Bold","ars-maquette-web";
+  font-family: $font-family-primary;
   text-align: center;
+  border: none !important;
+  color: white;
+  background-color: $ign-red;
+  font-size: 14.8564px;
+  font-weight: 400;
+  letter-spacing: 0.0075em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  transition: all 0.3s ease-in-out;
+  padding-top: 0.7rem;
+  padding-bottom: 0.9rem;
 
   @include retina {
     background-color: $ign-blue;
@@ -33,34 +46,45 @@ button {
 
 //Button Sizes
 .btn-sml {
-
+      padding-top: 0.875rem 1.75rem 0.9375rem 1.75rem;
+      font-size: 0.8125rem;
 }
 
 .btn-tiny{
-
+  padding-top: 0.625rem 1.25rem 0.6875rem 1.25rem;
+  font-size: 0.6875rem;
 }
 
 .btn-compact{
-
+  font-size: 0.6875rem !important;
+  padding: 0.35em 1.5em 0.4em;
 }
 
 
 //Button Styles
 
 .btn-hallow{
-
+  border: 1px solid $ign-red !important;
+      color: $ign-red;
+      background-color: transparent;
+      font-weight: 400;
+      letter-spacing: 0.0075em;
+      -webkit-font-smoothing: antialiased;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      padding: 0.7rem 2.5rem 0.9rem;
 }
 
 .btn-rounded{
-
+  border-radius: 1000px;
 }
-
-
-
 
 
 //Playhead Styles
 .playhead {
+  height: 60px;
+  width: 60px;
   border-radius: 1000px;
 
 }
@@ -75,9 +99,11 @@ button {
 }
 
 .playhead-lg {
-
+  height: 90px;
+  width: 90px;
 }
 
 .playhead-sml {
-
+  height: 30px;
+  width: 30px;
 }

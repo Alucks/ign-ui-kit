@@ -2,5 +2,10 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-primary:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-secondary:  Georgia, "Times New Roman", Times, serif !default;
+$font-family-primary:  'Maquette Bold','ars-maquette-web', Helvetica, Arial, sans-serif !default;
+$font-family-secondary: 'ff-din-round-web-pro',sans-serif !default;
+
+
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          14px !default;
