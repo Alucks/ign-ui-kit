@@ -9,7 +9,7 @@ button {
   @include chrome-multiline-ellipsis (2);
 }
 
-.btn-grey {
+.btn-secondary {
    border: 1px solid #bababa;
    background-color: #fff;
    border-radius: 25px;
@@ -28,4 +28,56 @@ button {
    padding: 10px 15px;
    text-transform: uppercase;
    margin:20px;
+}
+
+
+//Button Sizes
+.btn-sml {
+
+}
+
+.btn-tiny{
+
+}
+
+.btn-compact{
+
+}
+
+
+//Button Styles
+
+.btn-hallow{
+
+}
+
+.btn-rounded{
+
+}
+
+
+
+
+
+//Playhead Styles
+.playhead {
+  border-radius: 1000px;
+
+}
+
+.playhead-primary {
+    background-color: $ign-red;
+}
+
+.playhead-secondary {
+    border: 2px solid $ign-white;
+
+}
+
+.playhead-lg {
+
+}
+
+.playhead-sml {
+
 }
