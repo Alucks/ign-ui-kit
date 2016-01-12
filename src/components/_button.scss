@@ -1,11 +1,12 @@
 button {
-  font-family: $font-family-primary;
+  display: inline-block;
+  font-family: 'Maquette Bold','ars-maquette-web', Helvetica, Arial, sans-serif;
   text-align: center;
   border: none !important;
   color: white;
   background-color: $ign-red;
   font-size: 14.8564px;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.0075em;
   -webkit-font-smoothing: antialiased;
   -webkit-border-radius: 3px 3px 3px 3px;
@@ -14,9 +15,9 @@ button {
   transition: all 0.3s ease-in-out;
   padding-top: 0.7rem;
   padding-bottom: 0.9rem;
-
+  margin: 20px;
   @include retina {
-    background-color: $ign-blue;
+
   }
 
   @include chrome-multiline-ellipsis (2);
@@ -38,20 +39,24 @@ button {
    border:none;
    border-radius: 2px;
    color: $ign-white;
-   padding: 10px 15px;
+   padding: 20px 25px;
    text-transform: uppercase;
    margin:20px;
 }
 
+.btn-hallow.btn-grey {
+  border: 1px solid $ign-gray !important;
+  color: $ign-gray !important;
+}
 
 //Button Sizes
 .btn-sml {
-      padding-top: 0.875rem 1.75rem 0.9375rem 1.75rem;
+      padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
       font-size: 0.8125rem;
 }
 
 .btn-tiny{
-  padding-top: 0.625rem 1.25rem 0.6875rem 1.25rem;
+  padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
   font-size: 0.6875rem;
 }
 
@@ -66,14 +71,14 @@ button {
 .btn-hallow{
   border: 1px solid $ign-red !important;
       color: $ign-red;
-      background-color: transparent;
+      background-color: transparent !important;
       font-weight: 400;
       letter-spacing: 0.0075em;
       -webkit-font-smoothing: antialiased;
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       border-radius: 3px;
-      padding: 0.7rem 2.5rem 0.9rem;
+      // padding: 0.7rem 2.5rem 0.9rem;
 }
 
 .btn-rounded{
@@ -82,10 +87,13 @@ button {
 
 
 //Playhead Styles
-.playhead {
+.playhead-k {
   height: 60px;
   width: 60px;
   border-radius: 1000px;
+  text-align: center;
+  box-shadow: 0px 0px 20px $ign-darkest-gray;
+  margin: 20px;
 
 }
 
@@ -95,15 +103,32 @@ button {
 
 .playhead-secondary {
     border: 2px solid $ign-white;
+    background-color: $ign-darkest-gray;
 
 }
 
 .playhead-lg {
   height: 90px;
   width: 90px;
+  border: 4px;
 }
 
 .playhead-sml {
   height: 30px;
   width: 30px;
+}
+
+.play-icon {
+  width: 60%;
+  margin: auto;
+  padding-top: .85em;
+  padding-left: .2em;
+}
+
+.playhead-sml .play-icon {
+  padding-top: .2em;
+}
+
+.playhead-lg .play-icon {
+  padding-top: 1.3em;
 }

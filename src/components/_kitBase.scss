@@ -16,6 +16,10 @@ body{
    border-right:1px solid $ign-light-gray;
    height:100%;
 }
+.ign-logo {
+    margin: auto;
+    width:40px;
+}
 
 .content {
    margin-left:180px;
@@ -33,6 +37,11 @@ section{
   padding:12px 0px;
   margin: 5px;
   border-radius: 4px;
+}
+
+.demo-big {
+  height:200px;
+
 }
 .ign-white{
    background-color: $ign-white;
@@ -61,12 +70,15 @@ section{
 }
 .ign-red{
    background-color: $ign-red;
+     color: $ign-white;
 }
 .ign-legacy-red{
    background-color: $ign-legacy-red;
+   color: $ign-white;
 }
 .ign-blue{
    background-color: $ign-blue;
+   color: $ign-white;
 }
 
 .p-label{
