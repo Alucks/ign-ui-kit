@@ -35,7 +35,7 @@ button {
 }
 
 .btn-primary {
-   background-color: #bf1313;
+   background-color: $ign-red;
    border:none;
    border-radius: 2px;
    color: $ign-white;
@@ -121,14 +121,15 @@ button {
 .play-icon {
   width: 60%;
   margin: auto;
-  padding-top: .85em;
-  padding-left: .2em;
+  padding-top: 12px;
+  padding-left: 4px;
 }
 
 .playhead-sml .play-icon {
-  padding-top: .2em;
+  padding-top: 2px;
+  padding-left: 1px;
 }
 
 .playhead-lg .play-icon {
-  padding-top: 1.3em;
+  padding-top: 17px;
 }
