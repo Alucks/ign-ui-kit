@@ -100,14 +100,15 @@ button {
 .play-icon {
   width: 60%;
   margin: auto;
-  padding-top: 10px;
-  padding-left: 5px; }
+  padding-top: 12px;
+  padding-left: 4px; }
 
 .playhead-sml .play-icon {
-  padding-top: 2px; }
+  padding-top: 2px;
+  padding-left: 1px; }
 
 .playhead-lg .play-icon {
-  padding-top: 10px; }
+  padding-top: 17px; }
 
 /* CSS for Kit */
 body {
